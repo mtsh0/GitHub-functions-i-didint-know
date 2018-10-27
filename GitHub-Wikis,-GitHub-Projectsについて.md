@@ -45,7 +45,7 @@
 <br>
 <br>
 
-## 2. GitHubWikis を使ってみる
+## 2. 実際に `GitHubWikis` を使ってみる
 1. レポジトリを作成する
     1. 右上の`+` => `new repository` をクリック
     2. Repository name（リポジトリの名前）: 任意の名前を入力(-,_ を使える)
