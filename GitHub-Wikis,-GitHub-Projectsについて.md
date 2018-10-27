@@ -7,12 +7,14 @@
 環境は
 - MacOS: 10.11.6
 - git version: 2.13.1  
+
 です
 <br>
 ## 1. GitHub Wikisとは
 `GitHub Wikis`は下記のような場合に使われることがあるといいます
 - どのような経緯、原則などより詳細な内容を伝えたい
 - `README.md`より詳細な内容を伝えたい  
+
 > GitHub Wikis are a place in your repository where you can share long-form content about your project, such as how to use it, how it's been designed, manifestos on its core principles, and so on. Whereas a README is intended to quickly orient readers as to what your project can do, wikis can be used to provide additional documentation.
 <br>
 
@@ -69,13 +71,27 @@ GitHubのWikiもGitで管理できます。
 ## 4. 画像を貼る
 分りやすいように画像(`jpg`や`gif`)をつけたい時あります。  
 そんなときは下記の手順でできるようになります  
-    1. まずはディレクトリ構造を確認(わたしの場合はこんな感じでした)  
-        ```bash:Bash  
-        .
-        ├── GitHub-Wikis,-GitHub-Projects�\201��\201��\201\204�\201�.md
-        └── Home.md
-        ```
+1. まずはディレクトリ構造を確認(わたしの場合はこんな感じでした)
+    ```bash:Bash
+    $ tree
+    .
+    ├── GitHub-Wikis,-GitHub-Projects�\201��\201��\201\204�\201�.md
+    └── Home.md
+    ```
+2. 画像を入れるフォルダを作成(その中に画像も入れておく、今回はgifにしました)
+    ```bash:Bash
+    .
+    ├── GitHub-Wikis,-GitHub-Projects�\201��\201��\201\204�\201�.md
+    ├── Home.md
+    └── img
+        └── sample.gif
 
+    1 directory, 3 files
+    ```
+3. 画像をmdファイルで表示させる
+    ```md:markdownファイル
+    ![sample](img/sample.gif "sample")
+    ```
 
 追記(2018/10/2)[GitHubカンニング・ペーパー](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ja.md#github)
 
