@@ -10,6 +10,8 @@
 
 です
 <br>
+<br>
+
 ## 1. GitHub Wikisとは
 `GitHub Wikis`は下記のような場合に使われることがあるといいます
 - どのような経緯、原則などより詳細な内容を伝えたい
@@ -24,22 +26,24 @@
 - インストールの仕方、使い方  
 - 分りやすいような画像(gifは見ていて使うイメージが湧く)  
 
-を簡潔にまとめたもので`クイックスタートガイド`的なやつです。
+を簡潔にまとめたもので`クイックスタートガイド的なやつ`って自分では思ってます。
 <br>
 一番の違いは
 
 >一番違うのはREADME.mdは同一リポジトリだけど、Wikiは別リポジトリという点だと思う
-両方管理するとしたら、例えばこんな観点で分けると良いんじゃあないかな  
-[readmeとwikiの違い](https://qiita.com/suzuki-hoge/items/1d6022cca177e2d96bb5#readme%E3%81%A8wiki%E3%81%AE%E9%81%95%E3%81%84)  
+>両方管理するとしたら、例えばこんな観点で分けると良いんじゃあないかな  
+>[readmeとwikiの違い](https://qiita.com/suzuki-hoge/items/1d6022cca177e2d96bb5#readme%E3%81%A8wiki%E3%81%AE%E9%81%95%E3%81%84)  
 
 下記の比較表はとても分りやすいです  
 
-|  | README.md | Wiki |
+|  | :README.md: | Wiki |
 |:-----------:|:------------:|:------------|
 | 更新頻度 | 頻繁 | ほとんど無い |
 | PullRequestに | 含めたい | 含めなくて良い |
 | 管理者 | 開発者 | 例えばPOやディレクター |
 | 内容 | 開発者用 | システム利用者用 |
+<br>
+<br>
 
 ## 2. GitHubWikis を使ってみる
 1. レポジトリを作成する
@@ -51,6 +55,9 @@
     1. `1-iii`クリック後の遷移画面の `Wiki` をクリック
     2. 中央の`Create the first page` をクリック
     3. 遷移先のページ下部の`Save Page` をクリック
+<br>
+<br>
+
 
 ## 3. ローカルでWikiを編集する
 GitHubのWikiもGitで管理できます。  
@@ -67,10 +74,19 @@ GitHubのWikiもGitで管理できます。
         - `git add .`
         - `git commit -m "お好きにどうぞ"`
         - `git push origin master`
+<br>
+<br>
 
 ## 4. 画像を貼る
-分りやすいように画像(`jpg`や`gif`)をつけたい時あります。  
-そんなときは下記の手順でできるようになります  
+分りやすいように画像(`jpg`や`gif`)をつけたい時があります。  
+そんなときは下記の手順でできるようになります。  
+>※ 下記で使っている`tree`コマンドはカレントディレクトリのディレクトリ構造をbashで表示するコマンドです。  
+>標準では入っていないので使いたい場合は`Bash`で
+>```bash:bash
+>brew install tree
+>```
+>を実行してください。インストールがうまくいけば`tree`コマンドが使えるようになります。
+
 1. まずはディレクトリ構造を確認(わたしの場合はこんな感じでした)
     ```bash:Bash
     $ tree
@@ -92,8 +108,15 @@ GitHubのWikiもGitで管理できます。
     ```md:markdownファイル
     ![sample](img/sample.gif "sample")
     ```
+    実際はこんな感じになります<br>
+    ![sample](img/sample.gif "sample")
+<br>
+<br>
 
-追記(2018/10/2)[GitHubカンニング・ペーパー](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ja.md#github)
+
+### 追記(2018/10/2)
+こんな良さげなものがありました
+- [GitHubカンニング・ペーパー](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ja.md#github)
 
 
 
