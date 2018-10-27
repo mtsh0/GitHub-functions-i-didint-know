@@ -115,7 +115,9 @@ GitHubのWikiもGitで管理できます。
     1 directory, 3 files
     ```
 3. 画像をmdファイルで表示させる
-    ```md:markdownファイル
+    ```bash:
+    # Markdownファイル
+    # [リンク名](<ファイルの名前> "alt属性")
     ![sample](img/sample.gif "sample")
     ```
     実際はこんな感じになります<br>
