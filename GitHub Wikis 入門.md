@@ -10,6 +10,14 @@
 です
 <br>
 <br>
+## 0. 目次
+1.
+2.
+3.
+4.
+5. [お世話になったサイトさまたち](#section5)
+
+
 
 ## 1. GitHub Wikisとは
 `GitHub Wikis`は下記のような場合に使われることがあるといいます
@@ -123,7 +131,7 @@ BitBucketでも同じようなことができます
 
 
 
-### お世話になったサイトさまたち
+### <a name="section5">お世話になったサイトさまたち</a>
 >- [Github Help(英語)](https://help.github.com/categories/wiki/)
 >- [GitHub Wikiの編集ノウハウ](https://github.com/doc-wiki-jp/wiki/wiki/GitHub-Wiki%E3%81%AE%E7%B7%A8%E9%9B%86%E3%83%8E%E3%82%A6%E3%83%8F%E3%82%A6)
 >- [[github wiki] Wikiを管理する](https://qiita.com/suzuki-hoge/items/1d6022cca177e2d96bb5#github-wiki-wiki%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B)
