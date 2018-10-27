@@ -11,22 +11,25 @@
 <br>
 <br>
 ## 0. 目次
-1.
-2.
-3.
-4.
-5. [お世話になったサイトさまたち](#section5)
+1. [GitHub Wikisとは](#section1)
+2. [実際に `GitHubWikis` を使ってみる](#section2)
+3. [ローカルでWikiを編集する](#section3)
+4. [画像を貼る](#section4)
+5. [自分の感想(あとで更新します)](#section5)
+6. [追記](#section6)
+7. [お世話になったサイトさまたち](#section7)
 
 
 
-## 1. GitHub Wikisとは
+## <a name="section1">1. GitHub Wikisとは</a>
 `GitHub Wikis`は下記のような場合に使われることがあるといいます
 - どのような経緯、原則などより詳細な内容を伝えたい
 - `README.md`より詳細な内容を伝えたい  
 
-> GitHub Wikis are a place in your repository where you can share long-form content about your project, such as how to use it, how it's been designed, manifestos on its core principles, and so on. Whereas a README is intended to quickly orient readers as to what your project can do, wikis can be used to provide additional documentation.
-<br>
+> GitHub Wikis are a place in your repository where you can share long-form content about your project, such as how to use it, how it's been designed, manifestos on its core principles, and so on. Whereas a README is intended to quickly orient readers as to what your project can do, wikis can be used to provide additional documentation.<br><br>
+>引用： [About GitHub Wikis](https://help.github.com/articles/about-github-wikis/)
 
+<br>
 では README.md はどのように使うのかというと
 
 - そのリポジトリの機能をインストールすることでできるようになること
@@ -39,7 +42,7 @@
 
 >一番違うのはREADME.mdは同一リポジトリだけど、Wikiは別リポジトリという点だと思う
 >両方管理するとしたら、例えばこんな観点で分けると良いんじゃあないかな  
->[readmeとwikiの違い](https://qiita.com/suzuki-hoge/items/1d6022cca177e2d96bb5#readme%E3%81%A8wiki%E3%81%AE%E9%81%95%E3%81%84)  
+>引用: [readmeとwikiの違い](https://qiita.com/suzuki-hoge/items/1d6022cca177e2d96bb5#readme%E3%81%A8wiki%E3%81%AE%E9%81%95%E3%81%84)  
 
 下記の比較表はとても分りやすいです  
 
@@ -52,7 +55,7 @@
 <br>
 <br>
 
-## 2. 実際に `GitHubWikis` を使ってみる
+## <a name="section2">2. 実際に `GitHubWikis` を使ってみる</a>
 1. レポジトリを作成する
     1. 右上の`+` => `new repository` をクリック
     2. Repository name（リポジトリの名前）: 任意の名前を入力(-,_ を使える)
@@ -66,7 +69,7 @@
 <br>
 
 
-## 3. ローカルでWikiを編集する
+## <a name="section3">3. ローカルでWikiを編集する</a>
 GitHubのWikiもGitで管理できます。  
 ローカルで編集して`GitHub`へpushしたほうが早いです。  
 最近 markdownファイルを使い始めたので `Wiki` をGitHubで編集しようとすると結構大変です(イライラします、笑)。<br>
@@ -84,7 +87,7 @@ GitHubのWikiもGitで管理できます。
 <br>
 <br>
 
-## 4. 画像を貼る
+## <a name="section4">4. 画像を貼る</a>
 分りやすいように画像(`jpg`や`gif`)をつけたい時があります。  
 そんなときは下記の手順でできるようになります。  
 >※ 下記で使っている`tree`コマンドはカレントディレクトリのディレクトリ構造をbashで表示するコマンドです。  
@@ -120,8 +123,11 @@ GitHubのWikiもGitで管理できます。
 <br>
 <br>
 
+### <a name="section5">5. 自分の感想</a>
+もうちょっと使ってから書きます
 
-### 追記(2018/10/27)
+
+### <a name="section6">6. 追記(2018/10/27)</a>
 BitBucketでも同じようなことができます
 - [【Bitbucket】Wikiを使ってみる](http://shikashikamemo.hatenablog.com/entry/2014/10/02/221415)  
 <br>
@@ -131,7 +137,7 @@ BitBucketでも同じようなことができます
 
 
 
-### <a name="section5">お世話になったサイトさまたち</a>
+### <a name="section7">7. お世話になったサイトさまたち</a>
 >- [Github Help(英語)](https://help.github.com/categories/wiki/)
 >- [GitHub Wikiの編集ノウハウ](https://github.com/doc-wiki-jp/wiki/wiki/GitHub-Wiki%E3%81%AE%E7%B7%A8%E9%9B%86%E3%83%8E%E3%82%A6%E3%83%8F%E3%82%A6)
 >- [[github wiki] Wikiを管理する](https://qiita.com/suzuki-hoge/items/1d6022cca177e2d96bb5#github-wiki-wiki%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B)
