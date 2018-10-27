@@ -118,7 +118,7 @@ GitHubのWikiもGitで管理できます。
 - BitBucketでも同じようなことができます
     - [【Bitbucket】Wikiを使ってみる](http://shikashikamemo.hatenablog.com/entry/2014/10/02/221415)  
 <br>
-こんな良さげなものがありました
+他にもこんな良さげなものがありました  
 - [GitHubカンニング・ペーパー](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ja.md#github)
 
 
