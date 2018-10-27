@@ -3,8 +3,12 @@
 かなりくだいてメモしていますが、もしよければご覧ください(時間が空いたときにちょこちょこ書きます)
 <br>
 <br>
-※ これは`2018/10/27`時点のものです
-
+※ これは`2018/10/27`時点のものです  
+環境は
+- MacOS: 10.11.6
+- git version: 2.13.1  
+です
+<br>
 ## 1. GitHub Wikisとは
 `GitHub Wikis`は下記のような場合に使われることがあるといいます
 - どのような経緯、原則などより詳細な内容を伝えたい
@@ -47,10 +51,13 @@
     3. 遷移先のページ下部の`Save Page` をクリック
 
 ## 3. ローカルでWikiを編集する
+GitHubのWikiもGitで管理できます。  
 ローカルで編集して`GitHub`へpushしたほうが早いです。  
-最近 markdownファイルを使い始めたので `Wiki` をGitHubで編集しようとすると結構大変です(イライラします、笑)。  
-&emsp&emsp;1. fae
-&emsp&emsp;1. fae
+最近 markdownファイルを使い始めたので `Wiki` をGitHubで編集しようとすると結構大変です(イライラします、笑)。<br>
+そこで`git clone`でローカルに落としてきて編集して、`git push`で公開するという方法を使います。
+1. Wikiのリポジトリをクローンする
+    1. Wikiページの右下の`Clone this wiki locally`の内容をコピー(クリックする)
+    2. `bash`で`git clone <コピーしたやつをペースト>`を実行する
 
 追記(2018/10/2)[GitHubカンニング・ペーパー](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ja.md#github)
 
