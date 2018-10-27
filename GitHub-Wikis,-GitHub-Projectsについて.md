@@ -58,6 +58,24 @@ GitHubのWikiもGitで管理できます。
 1. Wikiのリポジトリをクローンする
     1. Wikiページの右下の`Clone this wiki locally`の内容をコピー(クリックする)
     2. `bash`で`git clone <コピーしたやつをペースト>`を実行する
+2. クローンしてきたファイルを実際に編集する
+    1. 変更(更新)が終わったら
+    2. `bash`で新しくローカルに出来た`<自分のリポジトリ名>.wiki`フォルダに移動する
+    3. 通常と同じようにpushする
+        - `git add .`
+        - `git commit -m "お好きにどうぞ"`
+        - `git push origin master`
+
+## 4. 画像を貼る
+分りやすいように画像(`jpg`や`gif`)をつけたい時あります。  
+そんなときは下記の手順でできるようになります  
+    1. まずはディレクトリ構造を確認(わたしの場合はこんな感じでした)  
+        ```bash:Bash  
+        .
+        ├── GitHub-Wikis,-GitHub-Projects�\201��\201��\201\204�\201�.md
+        └── Home.md
+        ```
+
 
 追記(2018/10/2)[GitHubカンニング・ペーパー](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ja.md#github)
 
@@ -68,5 +86,8 @@ GitHubのWikiもGitで管理できます。
 >- [GitHub Wikiの編集ノウハウ](https://github.com/doc-wiki-jp/wiki/wiki/GitHub-Wiki%E3%81%AE%E7%B7%A8%E9%9B%86%E3%83%8E%E3%82%A6%E3%83%8F%E3%82%A6)
 >- [[github wiki] Wikiを管理する](https://qiita.com/suzuki-hoge/items/1d6022cca177e2d96bb5#github-wiki-wiki%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B)
 >- [GitHubを中心とした開発プロセス ドキュメント管理](https://qiita.com/suzuki-hoge/items/1d6022cca177e2d96bb5#github-wiki-wiki%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B)
+>- [【GitHub】GitHubのWikiを書く](http://tech.admax.ninja/2014/10/08/how-to-write-wiki-of-github/)
+
+
 
 https://qiita.com/suzuki-hoge/items/a6e3bdc2cc1cf4e98ea1
