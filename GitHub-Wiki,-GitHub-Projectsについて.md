@@ -1,13 +1,13 @@
 # GitHub Wiki 入門
 これはGitHubでソースコード管理しかしたことがない自分を含めた初心者用のメモになります(英語の勉強も含めて)。もしよければご覧ください
-<font color="LightGray">
-<details><summary>すごく長い文章とかプログラムとか</summary><div>
+
+<details><font color="LightGray"><summary>すごく長い文章とかプログラムとか</summary></font><div>
 
 \```python
 print('Hello world!')
 \```
 </div></details>
-</font>
+
 
 
 追記(2018/10/2)[GitHubカンニング・ペーパー](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ja.md#github)
