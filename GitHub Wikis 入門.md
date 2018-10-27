@@ -115,9 +115,10 @@ GitHubのWikiもGitで管理できます。
 
 
 ### 追記(2018/10/27)
-- BitBucketでも同じようなことができます
-    - [【Bitbucket】Wikiを使ってみる](http://shikashikamemo.hatenablog.com/entry/2014/10/02/221415)  
+BitBucketでも同じようなことができます
+- [【Bitbucket】Wikiを使ってみる](http://shikashikamemo.hatenablog.com/entry/2014/10/02/221415)  
 <br>
+
 他にもこんな良さげなものがありました  
 - [GitHubカンニング・ペーパー](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ja.md#github)
 
