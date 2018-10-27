@@ -123,11 +123,11 @@ GitHubのWikiもGitで管理できます。
 <br>
 <br>
 
-### <a name="section5">5. 自分の感想</a>
+## <a name="section5">5. 自分の感想</a>
 もうちょっと使ってから書きます
 
 
-### <a name="section6">6. 追記(2018/10/27)</a>
+## <a name="section6">6. 追記(2018/10/27)</a>
 BitBucketでも同じようなことができます
 - [【Bitbucket】Wikiを使ってみる](http://shikashikamemo.hatenablog.com/entry/2014/10/02/221415)  
 <br>
@@ -137,7 +137,7 @@ BitBucketでも同じようなことができます
 
 
 
-### <a name="section7">7. お世話になったサイトさまたち</a>
+## <a name="section7">7. お世話になったサイトさまたち</a>
 >- [Github Help(英語)](https://help.github.com/categories/wiki/)
 >- [GitHub Wikiの編集ノウハウ](https://github.com/doc-wiki-jp/wiki/wiki/GitHub-Wiki%E3%81%AE%E7%B7%A8%E9%9B%86%E3%83%8E%E3%82%A6%E3%83%8F%E3%82%A6)
 >- [[github wiki] Wikiを管理する](https://qiita.com/suzuki-hoge/items/1d6022cca177e2d96bb5#github-wiki-wiki%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B)
