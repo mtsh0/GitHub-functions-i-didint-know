@@ -1,6 +1,9 @@
 # GitHub Wikis 入門
 これはGitHubでソースコード管理しかしたことがない自分を含めた初心者用のメモになります(英語の勉強も含めて)。  
 かなりくだいてメモしていますが、もしよければご覧ください(時間が空いたときにちょこちょこ書きます)
+<br>
+<br>
+※ これは`2018/10/27`時点のものです
 
 ## 1. GitHub Wikisとは
 `GitHub Wikis`は下記のような場合に使われることがあるといいます
@@ -8,7 +11,9 @@
 - `README.md`より詳細な内容を伝えたい  
 > GitHub Wikis are a place in your repository where you can share long-form content about your project, such as how to use it, how it's been designed, manifestos on its core principles, and so on. Whereas a README is intended to quickly orient readers as to what your project can do, wikis can be used to provide additional documentation.
 <br>
-では README.md はどのように使うのかというと  
+
+では README.md はどのように使うのかというと
+
 - そのリポジトリの機能をインストールすることでできるようになること
 - インストールの仕方、使い方  
 - 分りやすいような画像(gifは見ていて使うイメージが湧く)  
@@ -29,6 +34,16 @@
 | 管理者 | 開発者 | 例えばPOやディレクター |
 | 内容 | 開発者用 | システム利用者用 |
 
+## 2. GitHubWikis を使ってみる
+1. レポジトリを作成する
+    1. 右上の`+` => new repository
+    2. Repository name（リポジトリの名前）: 任意の名前を入力(-,_ を使える)
+    3. 問題なければ `Create Repository`をクリック
+
+2. GitHubWikis の編集権限を変更する(現在のままではだれでも変更できてしまう)
+    1. `1-iii`をクリックした後の画面の `Settings` をクリック
+    2. 
+# 3. GitHub Wikis の注意点
 
 
 
