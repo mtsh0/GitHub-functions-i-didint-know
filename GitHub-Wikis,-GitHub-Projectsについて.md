@@ -17,6 +17,7 @@
 - そのリポジトリの機能をインストールすることでできるようになること
 - インストールの仕方、使い方  
 - 分りやすいような画像(gifは見ていて使うイメージが湧く)  
+
 を簡潔にまとめたもので`クイックスタートガイド`的なやつです。
 <br>
 一番の違いは
@@ -36,16 +37,20 @@
 
 ## 2. GitHubWikis を使ってみる
 1. レポジトリを作成する
-    1. 右上の`+` => new repository
+    1. 右上の`+` => `new repository` をクリック
     2. Repository name（リポジトリの名前）: 任意の名前を入力(-,_ を使える)
     3. 問題なければ `Create Repository`をクリック
 
-2. GitHubWikis の編集権限を変更する(現在のままではだれでも変更できてしまう)
-    1. `1-iii`をクリックした後の画面の `Settings` をクリック
-    2. 
-# 3. GitHub Wikis の注意点
+2. Wiki ページを作成する
+    1. `1-iii`クリック後の遷移画面の `Wiki` をクリック
+    2. 中央の`Create the first page` をクリック
+    3. 遷移先のページ下部の`Save Page` をクリック
 
-
+## 3. ローカルでWikiを編集する
+ローカルで編集して`GitHub`へpushしたほうが早いです。  
+最近 markdownファイルを使い始めたので `Wiki` をGitHubで編集しようとすると結構大変です(イライラします、笑)。  
+&emsp&emsp;1. fae
+&emsp&emsp;1. fae
 
 追記(2018/10/2)[GitHubカンニング・ペーパー](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ja.md#github)
 
